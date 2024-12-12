@@ -1,0 +1,32 @@
+
+*{
+    color: red;
+}
+h1 {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+h2{
+    color: aquamarine;!important
+    size: 20px;
+}
+#idduong1 {
+    color: blueviolet;
+}
+.class{
+    color: brown;
+}
+html{
+
+    color: aqua;
+}
+:root{
+    --text-color:red ;
+}
+h1{
+    --text-color2:green ; <!-- biến khai local -->
+    color:var(--text-color2);
+}
+h1{
+    color:var(--text-color)
+}

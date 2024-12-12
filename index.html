@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .box {
+                width: 60px;
+                height: 60px;
+                color:#fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .box1  {
+                background-color: blue;
+            }
+            .box2{
+                background-color:goldenrod;
+                margin-left: 15px;
+            }
+            .box3{
+                background-color: #444;
+                padding-top: 15px;
+                padding-left: 12px;
+                padding-bottom: 15px;
+                padding-right: 11px;
+                padding: 15px 12px 12px 11px;
+                border-top-width: 12px;
+                border-style: solid;
+                border-color: #ff0000;
+                margin-top: 20px;
+                box-sizing: border-box; 
+                /* điều chỉnh kích thước nội dung khi chỉnh thêm border hoạc padding */
+                background-clip: border-box;
+                /* đổ nền từ border */
+                background-image: url('https://nguoiduatin.mediacdn.vn/m24/upload/3-2023/images/2023-07-09/Than-hinh-muot-muon-muot-cua-gai-xinh-xu-Han-co-trieu-fan-han-kyung-1688907525-217-width1440height1728.jpeg?v=1689466382')
+
+            }
+            .box4 {
+                height: 100vh;
+                width: 100%;
+                background-size: contain;
+                background-repeat:no-repeat;
+                background-position: center;
+                background-image: 
+                    linear-gradient(0deg, rgba(255, 255, 0, 0.1), rgba(103, 197, 197, 0.1)),
+                    url('https://nguoiduatin.mediacdn.vn/m24/upload/3-2023/images/2023-07-09/Than-hinh-muot-muon-muot-cua-gai-xinh-xu-Han-co-trieu-fan-han-kyung-1688907525-217-width1440height1728.jpeg?v=1689466382');
+                background-position: top 20px right 20px;
+                
+            }
+            a::after{
+                content:"(" attr(href) ")" ;
+            }           
+        </style>
+    </head>
+    <body>
+        <a href="www.lophoctiengnhat.com"> Website:</a>
+        <div class="box4"></div>
+    </body>
+</html>
