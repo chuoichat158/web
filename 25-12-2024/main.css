@@ -1,13 +1,13 @@
 body{
     display: flex;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     /* justify-content: center; */
-    height: 100vh;
+    height: 100%;
     
 
 }
 body > div{
-    margin: auto;
+    height: 20px;
 }
 /* Selector: Chọn tất cả các thẻ <div> là con trực tiếp (direct child) 
 của thẻ <body>.  */
@@ -31,41 +31,50 @@ của thẻ <body>.  */
 .btn + .btn{
     margin-left:16px;
 }
-.btn--success{
+.btn__success{
     background-color: rgb(129, 169, 29);
 }
-.btn--warn{
+.btn__warn{
     background-color: red;
 }
-.btn--danger{
+.btn__danger{
     background-color: blue;
 }
-.btn--disabled{
+.btn__disabled{
     opacity: 0.4 !important;
     cursor: default;
 }
 
-.tostal{
+.toast{
     display: flex;
     align-items: center;
     background-color: fff;
-    border-radius: 3px;
-    border-left:5px solid;
+    border-radius: 2px;
+    border-left:4px solid;
+    padding: 20px 0;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
-    margin: 5px 5px;
-}            
-.tostal--icon{
+    /* margin: 5px 5px; */
+}         
+.toast +.toast{
+    margin-top: 24px;
+}   
+.toast__icon{
+    font-size: 24px;
+}
+.toast__icon,
+.toast__close{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.3);
+    padding: 0 16px;
 
 }
-.tostal--body{
+
+.toast__body{
 
 }
-.tostal--title{
+.toast__title{
 
 }
-.tostal--msg{
-
-}
-.tostal--close{
+.toast__msg{
 
 }
