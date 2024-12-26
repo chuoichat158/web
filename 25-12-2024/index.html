@@ -1,29 +1,30 @@
-<html>
+<html lang="en">
 <head>
-    <title>Học HTML và CSS</title>
+    <title>Image srcset attribute</title>
     <meta charset="UTF-8>">
     <meta name="description" content="Mô tả các nội dung của trang web">
     <meta name="keyword" content="Các từ khóa liên quan SEO">
     <meta name="author" content="Công ty betofumi">
     <meta name="Viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.5,     user-scalable=yes">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <style>
-        body{
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <style>
+   /* body{
             font-family: Arial, Helvetica, sans-serif;
-        }
-    </style>
+        } */
+     </style>
 </head>
 <body>
     <div>
         <!-- Success -->
-        <div class="toast">
+        <div class="toast toast--success">
            <div class="toast__icon">
                 <i class="fa-solid fa-circle-check"></i>
 
            </div>
            <div class="toast__body">
                 <h3 class="toast__title">Success</h3>
-                <p class="toast__msg"> Sử dụng BEM tạo Toast Message UI </p>
+                <p class="toast__msg"> Bạn đã kích hoạt thành công</p>
            </div>
            <div class="toast__close">
                 <i class="fa-solid fa-xmark"></i>
@@ -31,14 +32,14 @@
            </div>
         </div>
         <!-- Info -->
-        <div class="toast">
+        <div class="toast toast--info">
             <div class="toast__icon">
                  <i class="fa-solid fa-circle-check"></i>
  
             </div>
             <div class="toast__body">
                  <h3 class="toast__title">Info</h3>
-                 <p class="toast__msg"> Sử dụng BEM tạo Toast Message UI </p>
+                 <p class="toast__msg"> Vui lòng xem lại thông tin tài khoản </p>
             </div>
             <div class="toast__close">
                  <i class="fa-solid fa-xmark"></i>
@@ -46,14 +47,14 @@
             </div>
          </div>
          <!-- Warning -->
-        <div class="toast">
+        <div class="toast toast--warning">
             <div class="toast__icon">
                  <i class="fa-solid fa-circle-check"></i>
  
             </div>
             <div class="toast__body">
                  <h3 class="toast__title">Warning</h3>
-                 <p class="toast__msg"> Sử dụng BEM tạo Toast Message UI </p>
+                 <p class="toast__msg">Chú ý thông tin sai</p>
             </div>
             <div class="toast__close">
                  <i class="fa-solid fa-xmark"></i>
@@ -61,7 +62,7 @@
             </div>
          </div>
          <!-- Error -->
-        <div class="toast">
+        <div class="toast toast--error">
 
             
             <div class="toast__icon">
@@ -70,7 +71,7 @@
             </div>
             <div class="toast__body">
                  <h3 class="toast__title">Error</h3>
-                 <p class="toast__msg"> Sử dụng BEM tạo Toast Message UI </p>
+                 <p class="toast__msg">Thao tác thực hiện có lỗi</p>
             </div>
             <div class="toast__close">
                  <i class="fa-solid fa-xmark"></i>
