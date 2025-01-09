@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,900&display=swap');
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: "Epilogue", serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #FFFFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+.container .login-form{
+    width: 996px;
+    height: 618px;
+    background: rgb(255, 255, 255);
+    display: flex;
+}
+.container .login-form .left-form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-content{
+    width: 360px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.form-content-title{
+    font-size: 32px;
+    line-height: 48px; 
+  font-weight: 700; 
+    color: #171A1FFF;
+}
+
+
+.form-input{
+    width: 100%;
+    font-family: "inter", sans-serif;
+}
+
+.container .login-form .right-form{
+    width: 40%;
+    min-width: 445;
+    height: 100%;
+    background: #00BDD6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-form img{
+    width: 445px; 
+    height: 418px; 
+    object-fit: cover;
+}
+
+.form-input-item:focus-within{
+    border-radius: 4px;
+    border: 1px solid #00BDD6FF;
+    background-color: #00BDD622;
+}
+
+.form-input-item{
+    width: 360px;
+    height: 52px;
+    border-radius: 4px;
+    border: 1px solid #00BDD6FF;
+    box-shadow: 0 0 0 4px #F3F4F6FF;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input-item input{
+    border: 0;
+    width: 100%;
+}
+
+.form-input-item input:focus{
+    outline: none;
+}
+
+.form-input-lable{
+    font-family: Inter; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 700; 
+    padding-left: 10px;
+}
