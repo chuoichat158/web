@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Structure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer, nav, aside, section, article, div {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+        }
+        header {
+            background-color: #f4f4f4;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        aside {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <!-- Phần đầu trang -->
+    <header>
+        <h1>Tiêu đề trang</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Nội dung chính -->
+    <main>
+        <!-- Phần aside (Nội dung phụ) -->
+        <aside>
+            <h2>Liên kết hữu ích</h2>
+            <ul>
+                <li><a href="#">Liên kết 1</a></li>
+                <li><a href="#">Liên kết 2</a></li>
+            </ul>
+        </aside>
+
+        <!-- Phần nội dung chính với section và article -->
+        <section>
+            <h2>Phần nội dung chính</h2>
+            <article>
+                <h3>Bài viết 1</h3>
+                <p>Đây là nội dung của bài viết 1. Nội dung này minh họa cách sử dụng thẻ `<article>`.</p>
+            </article>
+            <article>
+                <h3>Bài viết 2</h3>
+                <p>Đây là nội dung của bài viết 2. Sử dụng thẻ `<article>` để tách biệt từng bài viết.</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Phần chân trang -->
+    <footer>
+        <p>&copy; 2025 Công ty ABC. Mọi quyền được bảo lưu.</p>
+    </footer>
+</body>
+</html>
