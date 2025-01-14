@@ -377,14 +377,11 @@ body{
 }
 
 .tb_container_body_button:hover{
-    min-width: 122px;
-    display: inline-block;
-    border-color: #7095d4;
+    height: 46px;
+    width: 120px;
+    border-radius: 15px;
     background: #7095d4;
     color: #fff;
-
-    border-radius: 5px;
-    line-height: 25px;
     transition: all 0.3s ease;
 }
 
@@ -807,4 +804,3 @@ div.tb_container_body_button_trai{
 .foot_section_right_right{
     padding: 0 15px;
 }
-
