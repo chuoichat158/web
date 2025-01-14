@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     margin: 0;
     padding: 0;
     font-family: "Epilogue", serif;
-    background-color: red;
+    background-color: #1D2128FF;
 }
 
 .homepage {
@@ -651,35 +652,35 @@ div.tb_container_body_button_trai{
 
 .foot{
     width: 100%;
-    min-height:380px;
+    min-height:auto;
     background-color: rgb(255, 255, 255);
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items:center;
     background: #1D2128FF;
 }
 
 .foot_section_left{
-    width: 30%;
+    width: 50%;
     height: 100%;
-    min-width: 550px;
     display: flex;
     justify-content: top;
-    align-items: left;
     flex-direction: column;
     padding-left: 50px;
-    padding-top: 50px;
+    padding-top: 40px;
    
 }
 
 .foot_aboutUs{
-    width: 100%;
+    width: 65PX;
+    height: 22PX;
     font-family: Poppins; 
     font-size: 14px; 
     line-height: 22px; 
     font-weight: 700; 
     color: #DEE1E6FF;
     display: flex;
+    padding-bottom: 14PX;
 }
 .footer_text{
     max-width: 507px;
@@ -693,7 +694,9 @@ div.tb_container_body_button_trai{
 .footer_input_main{
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+
 }
 
 .footer_input{
@@ -713,23 +716,8 @@ div.tb_container_body_button_trai{
     outline: none; 
 }
 
-.foot_section_right{
-    width: 50%;
-    height: 100%;
-    background-color: rgb(100, 100, 187);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
 .footer_button{
-    height: 36px; 
-    padding: 0 12px; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
+    padding: 10px 20px;
     font-family: Inter; 
     font-size: 14px; 
     line-height: 22px; 
@@ -739,4 +727,84 @@ div.tb_container_body_button_trai{
     opacity: 1; 
     border: none; 
     border-radius: 6px;
+    cursor: pointer;
 }
+
+.footer_button: hover{
+    background-color: #4a52d1;
+}
+
+.foot_section_left_bottom{
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    background-color: none;
+    margin-top: 100px;
+    gap: 5px;
+}
+
+.foot_section_left_bottom_text{
+    font-size: 24px; 
+    line-height: 36px; 
+    font-weight: 700; 
+    color: #FFFFFFFF;
+}
+.foot_section_left_bottom_2,
+.foot_section_left_bottom_3{
+    font-family: Poppins; 
+    font-size: 11px; 
+    line-height: 18px; 
+    font-weight: 400; 
+    color: white;
+    margin-left: 20px;
+}
+
+.foot_section_right{
+    width: 50%;
+    height: 100%;
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    font-family: Poppins;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.foot a{
+    text-decoration: none;
+    color: white;
+}
+.foot a:hover{
+    text-decoration: none;
+    color: none;
+    text-decoration: underline;
+}
+.foot_section_right_list_U{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.foot_section_right_title,
+.foot_section_left_title{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.foot_section_right_list_link{
+    font-size: 14px;
+}
+
+.foot_section_right_left,
+.foot_section_right_right{
+    padding: 0 15px;
+}
+
