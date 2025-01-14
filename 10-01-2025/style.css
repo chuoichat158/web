@@ -652,31 +652,25 @@ div.tb_container_body_button_trai{
 .foot{
     width: 100%;
     min-height:380px;
-    background-color: #1D2128FF;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items:center;
+    background: #1D2128FF;
 }
 
 .foot_section_left{
-    width: 50%;
+    width: 30%;
     height: 100%;
     min-width: 550px;
-    background-color: rgb(225, 187, 187);
     display: flex;
-    justify-content: center;
-    align-items: top;
+    justify-content: top;
+    align-items: left;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 50px;
    
-
 }
-.foot_section_right{
-    width: 50%;
-    height: 100%;
-    background-color: rgb(100, 100, 187);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 
 .foot_aboutUs{
     width: 100%;
@@ -684,6 +678,65 @@ div.tb_container_body_button_trai{
     font-size: 14px; 
     line-height: 22px; 
     font-weight: 700; 
-    color: #FFFFFFFF;
-    text-align: left;
+    color: #DEE1E6FF;
+    display: flex;
+}
+.footer_text{
+    max-width: 507px;
+    font-family: Poppins; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #DEE1E6FF; 
+}
+
+.footer_input_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_input{
+    width: 396px; 
+    height: 36px; 
+    padding-left: 12px; 
+    padding-right: 12px; 
+    font-family: Inter; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    background: #FFFFFFFF; 
+    border-radius: 6px; 
+    border-width: 1px; 
+    border-color: #BCC1CAFF; 
+    border-style: solid; 
+    outline: none; 
+}
+
+.foot_section_right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(100, 100, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer_button{
+    height: 36px; 
+    padding: 0 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: Inter; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #FFFFFFFF; 
+    background: #636AE8FF; 
+    opacity: 1; 
+    border: none; 
+    border-radius: 6px;
 }
